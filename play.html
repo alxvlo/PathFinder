@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Play — PathFinder</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="pf-header">
+  <div class="brand">PathFinder</div>
+  <nav>
+    <button id="toggleFlow" class="btn ghost">Show Flow</button>
+    <a href="index.html" class="btn secondary">Home</a>
+    <a href="admin.html" class="btn">Admin</a>
+  </nav>
+</header>
+<main class="container">
+  <section class="game-card">
+    <div class="question" id="questionText">Loading…</div>
+    <div class="actions">
+      <button id="btnYes" class="btn lg">Yes</button>
+      <button id="btnNo" class="btn lg secondary">No</button>
+    </div>
+    <div class="status">
+      <span id="qCount">0</span> questions asked
+    </div>
+  </section>
+
+  <section class="guess-card hidden" id="guessCard">
+    <h2>Is it <span id="guessName"></span>?</h2>
+    <div class="actions">
+      <button id="guessYes" class="btn lg">Correct</button>
+      <a id="guessNo" class="btn lg secondary" href="teach.html">No, teach me</a>
+    </div>
+  </section>
+
+  <section id="flowPanel" class="flow hidden">
+    <h3>Flow</h3>
+    <ol id="flowList"></ol>
+  </section>
+</main>
+<footer class="pf-footer">© 2025 PathFinder</footer>
+
+<script src="js/app_core.js"></script>
+<script src="js/data_seed.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Teach — PathFinder</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="pf-header">
+  <div class="brand">PathFinder</div>
+  <nav>
+    <a href="play.html" class="btn secondary">Back to Game</a>
+    <a href="admin.html" class="btn">Admin</a>
+  </nav>
+</header>
+<main class="container">
+  <h1>Teach PathFinder</h1>
+  <p>If we guessed wrong, help us learn who you were thinking of.</p>
+  <form id="teachForm" class="form">
+    <label>Person Name<input type="text" id="t_name" required /></label>
+    <label>Aliases (comma-separated)<input type="text" id="t_aliases" placeholder="e.g., MJ, His Airness"></label>
+
+    <fieldset id="attrFields">
+      <legend>Attributes</legend>
+    </fieldset>
+
+    <h3>Add a distinguishing yes/no question (optional)</h3>
+    <label>Question Text<input type="text" id="t_qtext" placeholder="Is the person known for basketball?"></label>
+    <label>Attribute Key<select id="t_qkey"></select></label>
+    <label>Attribute Value<input type="text" id="t_qval" placeholder="basketball"></label>
+
+    <div class="actions">
+      <button type="submit" class="btn lg">Save</button>
+      <a class="btn lg secondary" href="play.html">Cancel</a>
+    </div>
+  </form>
+</main>
+<footer class="pf-footer">© 2025 PathFinder</footer>
+
+<script src="js/app_core.js"></script>
+<script src="js/data_seed.js"></script>
+<script src="js/teach.js"></script>
+</body>
+</html>

@@ -3,35 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PathFinder: Person Guessing Game</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>PathFinder — Guessing Game</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <h1>PathFinder</h1>
-    <p class="subtitle">Akinator-style, binary decision tree — all in your browser</p>
+  <header class="pf-header">
+    <div class="brand">PathFinder</div>
+    <nav>
+      <a href="play.html" class="btn">Start Game</a>
+      <a href="admin.html" class="btn secondary">Admin</a>
+      <a href="about.html" class="btn ghost">About</a>
+    </nav>
   </header>
-
-  <main>
-  <section>
-    <h2>PathFinder: Person Guessing Game</h2>
-    <p class="subtitle">Math as a Science of Patterns • Binary Decision Trees</p>
-    <p>
-      Think of a person. I’ll ask yes/no questions to narrow it down.
-      If I’m wrong, you can teach me a distinguishing question next time (saved to your browser).
-    </p>
-    <div class="io">
-      <a class="button" href="game.html">Start Game</a>
+  <main class="container center">
+    <h1>Think of a person. I’ll try to guess.</h1>
+    <p>Answer Yes or No. If I miss, teach me so I get smarter next time.</p>
+    <div class="cta">
+      <a href="play.html" class="btn lg">Play Now</a>
     </div>
-  </section>
-</main>
-
-
-  <footer>
-    <small>&copy; PathFinder. Works offline. No tracking, no servers.</small>
-    <button id="btnAdminLogin" title="Admin login" style="margin-left:8px;">Admin</button>
-  </footer>
-
-  <script src="app.js" defer></script>
+  </main>
+  <footer class="pf-footer">© 2025 PathFinder</footer>
 </body>
 </html>

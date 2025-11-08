@@ -1,0 +1,296 @@
+--- REAL-WORLD PROFESSIONS & ROLES ---
+Scientists
+Mathematicians
+Physicists
+Chemists
+Biologists
+Astronomers
+Doctors
+Surgeons
+Nurses
+Psychologists
+Engineers: Civil, Mechanical, Electrical, Software, Aerospace
+Architects
+Teachers
+Professors
+Researchers
+Historians
+Linguists
+Philosophers
+Writers
+Poets
+Novelists
+Playwrights
+Screenwriters
+Journalists
+Reporters
+Editors
+Photographers
+Filmmakers
+Directors
+Producers
+Actors
+Actresses
+Comedians
+Musicians: Singers, Guitarists, Drummers, Pianists, Violinists
+Composers
+Conductors
+Dancers
+Choreographers
+Designers: Fashion, Graphic, Interior, Industrial
+Painters
+Sculptors
+Digital Artists
+Animators
+Lawyers
+Judges
+Politicians
+Presidents
+Prime Ministers
+Kings
+Queens
+Princes
+Princesses
+Activists
+Revolutionaries
+Philanthropists
+Diplomats
+Soldiers
+Generals
+Police Officers
+Firefighters
+Paramedics
+Navy Officers
+Air Force Pilots
+Astronauts
+Entrepreneurs
+Inventors
+Businessmen
+CEOs
+Managers
+Marketers
+Salespersons
+Economists
+Bankers
+Investors
+Accountants
+Real Estate Developers
+Chefs
+Restaurateurs
+Farmers
+Fishermen
+Miners
+Mechanics
+Technicians
+IT Specialists
+Programmers
+Web Developers
+Data Scientists
+Cybersecurity Experts
+AI Researchers
+Game Developers
+Streamers
+YouTubers
+TikTokers
+Influencers
+Podcasters
+Bloggers
+TV Hosts
+Models
+Fashion Icons
+Journalists
+Radio Personalities
+
+--- SPORTS & TEAMS ---
+Basketball Players: NBA, EuroLeague, PBA
+NBA Teams: Los Angeles Lakers, Boston Celtics, Golden State Warriors, Chicago Bulls, Miami Heat, Dallas Mavericks, Houston Rockets, San Antonio Spurs, New York Knicks, Brooklyn Nets, Denver Nuggets, Phoenix Suns, Toronto Raptors, Milwaukee Bucks, Philadelphia 76ers
+PBA Teams: Barangay Ginebra San Miguel, TNT Tropang Giga, San Miguel Beermen, Magnolia Hotshots, Meralco Bolts, Rain or Shine Elasto Painters
+Football Players: NFL, Premier League, La Liga, Serie A
+NFL Teams: Dallas Cowboys, Green Bay Packers, Kansas City Chiefs, New England Patriots, San Francisco 49ers
+Soccer Teams: FC Barcelona, Real Madrid, Manchester United, Liverpool, Chelsea, Arsenal, Manchester City, Paris Saint-Germain, Bayern Munich, Juventus, AC Milan, Inter Milan
+Baseball Players: MLB, NPB
+MLB Teams: New York Yankees, Los Angeles Dodgers, Chicago Cubs, Boston Red Sox, San Francisco Giants
+Hockey Players: NHL
+NHL Teams: Toronto Maple Leafs, Montreal Canadiens, Chicago Blackhawks, Detroit Red Wings, Boston Bruins, New York Rangers
+Tennis Players
+Golfers
+Track and Field Athletes
+Boxers
+MMA Fighters: UFC, ONE Championship
+Wrestlers: WWE, AEW, NJPW
+Esports Players: League of Legends, Dota 2, CS:GO, Valorant, Overwatch, Fortnite, Mobile Legends, PUBG
+
+--- HISTORICAL & CULTURAL FIGURES ---
+Ancient Philosophers
+Medieval Monarchs
+Renaissance Artists
+Explorers
+Inventors of the Industrial Age
+World War Leaders
+Revolutionaries
+National Heroes
+Modern Political Icons
+Philanthropists
+Cultural Icons
+
+--- MYTHOLOGY & RELIGION ---
+Gods
+Goddesses
+Demigods
+Heroes of Myth
+Titans
+Angels
+Demons
+Spirits
+Monsters
+Reapers
+Tricksters
+Creation Beings
+Prophets
+Saints
+Mythical Creatures: Dragons, Griffins, Unicorns, Phoenixes, Leviathans
+
+--- FICTIONAL CATEGORIES ---
+Superheroes
+Supervillains
+Antiheroes
+Sidekicks
+Comic Book Characters: Marvel, DC, Image, Dark Horse
+Marvel Teams: Avengers, X-Men, Fantastic Four, Guardians of the Galaxy
+DC Teams: Justice League, Suicide Squad, Teen Titans
+Anime Characters: Shōnen, Shōjo, Seinen, Mecha, Isekai, Slice of Life, Sports
+Anime Teams: Team 7 (Naruto), Straw Hat Pirates (One Piece), Z Fighters (Dragon Ball), Survey Corps (Attack on Titan), Phantom Troupe (Hunter x Hunter)
+Cartoon Characters
+Disney Characters
+Pixar Characters
+DreamWorks Characters
+Nickelodeon Characters
+Cartoon Network Characters
+Video Game Characters: RPG, FPS, MOBA, Strategy, Horror, Platformer
+Game Franchises: Mario, Zelda, Pokémon, Sonic, Final Fantasy, Persona, Halo, Call of Duty, League of Legends, Dota 2, Minecraft, The Sims, Fortnite, Valorant, Resident Evil
+Movie Characters: Heroes, Villains, Side Characters
+TV Show Characters: Sitcom, Drama, Crime, Fantasy, Sci-Fi
+Fantasy Characters: Wizards, Knights, Dragons, Elves, Dwarves, Orcs
+Science Fiction Characters: Aliens, Robots, Cyborgs, Time Travelers
+Horror Characters: Ghosts, Vampires, Werewolves, Zombies, Slasher Villains
+Detectives
+Spies
+Pirates
+Cowboys
+Samurai
+Ninjas
+Gladiators
+
+--- EDUCATION & ACADEMIC FIELDS ---
+Mathematicians
+Physicists
+Chemists
+Biologists
+Historians
+Philosophers
+Psychologists
+Sociologists
+Linguists
+Anthropologists
+Economists
+Political Scientists
+Theologians
+Educators
+
+--- ENTERTAINMENT INDUSTRY ---
+Movie Directors
+TV Producers
+Screenwriters
+Voice Actors
+Cinematographers
+Editors
+VFX Artists
+Makeup Artists
+Costume Designers
+Stage Performers
+Broadway Actors
+Musical Composers
+Rock Bands
+Pop Artists
+Classical Musicians
+Jazz Artists
+K-pop Idols
+Rappers
+DJs
+
+--- DIGITAL & MODERN CULTURE ---
+YouTubers
+Streamers
+TikTok Influencers
+Podcasters
+Bloggers
+Social Media Personalities
+Online Educators
+Game Streamers
+Virtual YouTubers (VTubers)
+Cosplayers
+Fan Artists
+E-Sports Commentators
+Tech Influencers
+
+--- FICTIONAL UNIVERSES ---
+Marvel Universe
+DC Universe
+Star Wars
+Star Trek
+Harry Potter
+Lord of the Rings
+Game of Thrones
+Naruto
+One Piece
+Dragon Ball
+Attack on Titan
+My Hero Academia
+Bleach
+Demon Slayer
+Jujutsu Kaisen
+Genshin Impact
+League of Legends
+Overwatch
+Elder Scrolls
+Minecraft
+Pokemon
+Zelda
+Halo
+Resident Evil
+Silent Hill
+Final Fantasy
+Persona
+God of War
+Assassin’s Creed
+Grand Theft Auto
+Red Dead Redemption
+Metal Gear Solid
+Dark Souls
+Elden Ring
+Sonic the Hedgehog
+Undertale
+FNAF (Five Nights at Freddy’s)
+
+--- CULTURAL & MISCELLANEOUS ---
+Artists
+Leaders
+Heroes
+Villains
+Inventors
+Explorers
+Scientists
+Philosophers
+Teachers
+Athletes
+Musicians
+Actors
+Writers
+Creators
+Visionaries
+Influencers
+Religious Figures
+Mythical Beings
+Historical Characters
+Fictional Characters
+Legendary Icons

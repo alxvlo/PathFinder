@@ -3,57 +3,112 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PathFinder Admin</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Admin — PathFinder</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <h1>PathFinder — Admin</h1>
-    <p class="subtitle">Import/Export decision tree (admin only)</p>
-  </header>
+<header class="pf-header">
+  <div class="brand">PathFinder</div>
+  <nav>
+    <a href="index.html" class="btn secondary">Home</a>
+    <a href="play.html" class="btn">Play</a>
+  </nav>
+</header>
+<main class="container">
+  <h1>Admin Dashboard</h1>
 
-  <main>
-    <section id="manage">
-      <h2>Manage knowledge</h2>
-      <div class="io">
-        <button id="btnExport">Export Tree (JSON)</button>
-        <label for="fileImport" class="file-label">Import JSON</label>
-        <input id="fileImport" type="file" accept="application/json" />
-      </div>
-      <p class="muted" style="margin-top:10px">
-        Admin session lasts until you close this tab. <a href="index.html">Back to game</a>
-      </p>
-    </section>
-  </main>
+  <!-- === Form Import (Friendly) === -->
+  <section class="admin-card" id="formImport">
+    <h2>Form Import (Friendly)</h2>
+    <p>Fill multiple rows, then click <strong>Import Rows</strong>. New values you type will be added as dropdown options for next time.</p>
 
-  <footer>
-    <small>&copy; PathFinder Admin</small>
-    <button id="btnAdminLogout" style="margin-left:8px;">Sign out</button>
-  </footer>
+    <div style="overflow:auto">
+      <table id="fi_table" style="width:100%; border-collapse:separate; border-spacing:8px">
+        <thead>
+          <tr>
+            <th>Name*</th>
+            <th>Classification*</th>
+            <th>Role</th>
+            <th>Where from</th>
+            <th>Fictional?</th>
+            <th>Sport</th>
+            <th>Topics</th>
+            <th>Aliases</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="fi_tbody">
+          <!-- rows injected by JS -->
+        </tbody>
+      </table>
+    </div>
 
-  <script src="app.js" defer></script>
-  <script>
-    // Hard guard: if not admin, prompt; if still not admin, bounce to index
-    document.addEventListener('DOMContentLoaded', () => {
-      if (!window.PathFinder_isAdmin || !window.PathFinder_isAdmin()) {
-        const ok = window.PathFinder_promptAdmin && window.PathFinder_promptAdmin();
-        if (!ok) {
-          alert('Admin required.');
-          location.href = 'index.html';
-          return;
-        }
-      }
-      // Wire logout button
-      const btn = document.getElementById('btnAdminLogout');
-      if (btn && window.PathFinder_setAdmin) {
-        btn.addEventListener('click', () => {
-          if (confirm('Sign out of admin?')) {
-            window.PathFinder_setAdmin(false);
-            location.href = 'index.html';
-          }
-        });
-      }
-    });
-  </script>
+    <div class="actions" style="margin-top:8px">
+      <button class="btn" id="fi_addRow">+ Add Row</button>
+      <button class="btn" id="fi_import">Import Rows</button>
+      <label style="margin-left:12px">
+        <input type="checkbox" id="fi_autogen" checked>
+        Auto-generate basic Yes/No questions
+      </label>
+    </div>
+
+    <div id="fi_report" class="report" style="margin-top:10px"></div>
+
+    <!-- datalists populated from dataset (and updated as admin types) -->
+    <datalist id="dl_classification"></datalist>
+    <datalist id="dl_role"></datalist>
+    <datalist id="dl_sport"></datalist>
+    <datalist id="dl_country"></datalist>
+    <datalist id="dl_era"></datalist>
+    <datalist id="dl_universe"></datalist>
+  </section>
+  <!-- === /Form Import (Friendly) === -->
+
+  <section class="admin-card">
+    <h2>Import Dataset</h2>
+    <input type="file" id="fileInput" multiple accept=".json" />
+    <button id="btnImport" class="btn">Import</button>
+    <div id="importReport" class="report"></div>
+  </section>
+
+  <section class="admin-card">
+    <h2>Paste Text Import</h2>
+    <p>One person per line · Use <code>|</code> to separate fields · Keys are optional for the first two fields.</p>
+    <p><strong>Syntax:</strong><br/>
+    <code>Name | aliases=Alias1, Alias2 | is_fictional=true | domain=sports | role=athlete | sport=basketball | country=USA | era=modern | universe=Marvel | topics=NBA, Basketball Players</code></p>
+    <textarea id="pasteBox" class="form" style="width:100%;height:140px"></textarea>
+    <div class="actions" style="margin-top:10px">
+      <button id="btnParsePaste" class="btn">Parse & Import</button>
+      <button id="btnClearPaste" class="btn secondary">Clear</button>
+    </div>
+    <div id="pasteReport" class="report"></div>
+  </section>
+
+  <section class="admin-card">
+    <h2>Export Dataset</h2>
+    <button id="btnExport" class="btn">Download canonical JSON</button>
+  </section>
+
+  <section class="admin-card">
+    <h2>Categories</h2>
+    <div id="catList"></div>
+  </section>
+
+  <section class="admin-card">
+    <h2>People <small id="peopleCount"></small></h2>
+    <div id="peopleList" class="grid"></div>
+  </section>
+
+  <section class="admin-card">
+    <h2>Questions <small id="questionCount"></small></h2>
+    <div id="questionList" class="grid"></div>
+  </section>
+
+</main>
+<footer class="pf-footer">© 2025 PathFinder</footer>
+
+<script src="js/app_core.js"></script>
+<script src="js/data_seed.js"></script>
+<script src="js/admin.js"></script>
 </body>
 </html>
