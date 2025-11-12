@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PathFinder Admin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>PathFinder — Admin</h1>
+    <p class="subtitle">Import/Export decision tree (admin only)</p>
+  </header>
+
+  <main>
+    <section id="manage">
+      <h2>Manage knowledge</h2>
+      <div class="io">
+        <button id="btnExport">Export Tree (JSON)</button>
+        <label for="fileImport" class="file-label">Import JSON</label>
+        <input id="fileImport" type="file" accept="application/json" />
+      </div>
+      <p class="muted" style="margin-top:10px">
+        Admin session lasts until you close this tab. <a href="index.html">Back to game</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; PathFinder Admin</small>
+    <button id="btnAdminLogout" style="margin-left:8px;">Sign out</button>
+  </footer>
+
+  <script src="app.js" defer></script>
+  <script>
+    // Hard guard: if not admin, prompt; if still not admin, bounce to index
+    document.addEventListener('DOMContentLoaded', () => {
+      if (!window.PathFinder_isAdmin || !window.PathFinder_isAdmin()) {
+        const ok = window.PathFinder_promptAdmin && window.PathFinder_promptAdmin();
+        if (!ok) {
+          alert('Admin required.');
+          location.href = 'index.html';
+          return;
+        }
+      }
+      // Wire logout button
+      const btn = document.getElementById('btnAdminLogout');
+      if (btn && window.PathFinder_setAdmin) {
+        btn.addEventListener('click', () => {
+          if (confirm('Sign out of admin?')) {
+            window.PathFinder_setAdmin(false);
+            location.href = 'index.html';
+          }
+        });
+      }
+    });
+  </script>
+</body>
+</html>

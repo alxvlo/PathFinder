@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PathFinder — Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>PathFinder</h1>
+    <p class="subtitle">Guessing Game</p>
+  </header>
+
+  <main>
+    <section id="game">
+      <p id="prompt">Loading…</p>
+      <div class="buttons">
+        <button id="btnYes">Yes</button>
+        <button id="btnNo">No</button>
+        <button id="btnProb">Probably</button>
+        <button id="btnPNot">Probably Not</button>
+        <button id="btnIDK">I don’t know</button>
+      </div>
+      <div class="secondary">
+        <button id="btnUndo" title="Go back one step">Undo</button>
+        <button id="btnRestart" title="Restart from the beginning">Restart</button>
+      </div>
+      <div id="status"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; PathFinder.</small>
+    <a class="button" href="index.html" style="margin-left:8px;">Home</a>
+    <button id="btnAdminLogin" title="Admin" style="margin-left:8px;">Admin</button>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
